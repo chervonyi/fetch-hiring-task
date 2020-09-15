@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FetchHiringJSONTask</string>
+    <string name="task_description">All items has been sorted by listId and name. Blanked or null name was removed.</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="horizontal"
+    android:background="@drawable/item_background">
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="#123"
+        android:textColor="@color/colorTextColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Item 683"
+        android:textColor="@color/colorTextColor" />
+
+    <TextView
+        android:id="@+id/listIdTextView"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="#3"
+        android:textColor="@color/colorTextColor" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
